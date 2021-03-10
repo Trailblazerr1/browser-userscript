@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name    e-ink browser test script
+// @name    betterEink
 // @version 0.1
 // @description Script to make web browsing better on e-ink
 // @author Anurag
