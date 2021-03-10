@@ -3,7 +3,7 @@
 // @version 0.1
 // @description Script to make web browsing better on e-ink
 // @author Anurag
-// @match   https://www.*.*/*
+// @match   *://*/*
 // ==/UserScript==
 
 (function () {
@@ -13,8 +13,9 @@
  while (i) {
   elem = htmls[i]; 
   if (elem && elem.style) {
-   elem.style.background = '#fff'; elem.style.color = '#000'; elem.style.wordWrap = "break-word"; elem.style.whiteSpace = "pre-wrap"; if(['PRE', 'CODE'].indexOf(elem.tagName) > -1) { elem.style.whiteSpace = "pre-wrap"; } 
-   } i--; 
-  }
- })();
-
+   elem.style.background-color = '#ffffff'; 
+   elem.style.color = '#000000'; 
+   elem.style.text-shadow = "0.34px 0.34px"; 
+  } i--; 
+ }
+})();
