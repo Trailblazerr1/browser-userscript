@@ -3,7 +3,7 @@
 // @version 0.1
 // @description Script to make web browsing better on e-ink
 // @author Anurag
-// @match   *
+// @match   https://www.google.com/*
 // ==/UserScript==
 
 (function () {
